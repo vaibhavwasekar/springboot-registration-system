@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Profile Page</title>
+</head>
+<body>
+<h3>WElCOME <span th:text="${modelname}"></span></h3>
+
+ <div style="margin-top: 20px;">
+<a th:href="@{/logout}">LOGOUT</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <a th:href="@{/}">HOME</a>
+    </div>
+</body>
+</html>
